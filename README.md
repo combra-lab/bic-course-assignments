@@ -27,7 +27,7 @@ Note: You might need to add the environment path variable to your bashrc to run 
 Once you have activated the environment, go to the directory where your assignment file resides and run jupyter lab using: ```jupyter lab```
 This will open Jupyter lab in a browser, and you will be able to access your assignment file, edit it, and run it. 
 
-Note: If you are using ilab machines, be aware of your storage quota for different directories. The storage options that the CS department provides you with are provided here : https://resources.cs.rutgers.edu/docs/file-storage/storage-technology-options/ 
+Note: If you are using ilab machines, be aware of your storage quota for different directories. The storage options that the CS department provides you with are listed here : https://resources.cs.rutgers.edu/docs/file-storage/storage-technology-options/ 
 
 ## The Difficult Way ##
 We strongly recommend you to use ilab using the method described above, and we are here to help if you have any issues connecting to ilab. However, if you want to setup the programming environment on your own local machine, you will need to first create an anaconda environment (https://www.anaconda.com/products/individual). Then activate the conda environment and install Pytorch (https://pytorch.org/). All other required packages come preinstalled with anaconda distribution. 
