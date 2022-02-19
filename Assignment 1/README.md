@@ -1,5 +1,5 @@
 # Assignment 1 #
-The goal of this assignment is to develop an understanding of how to perform computations using a spiking neuron. By the end of this assignment, you should a) be comfortable with developing models of spiking neurons at different levels of abstraction; b) understand how to represent continuous-valued information using spiking neurons; c) understand the trade-offs involved in spike-based information representation. 
+The goal of this assignment is to develop an understanding of how the brain performs computations at the neuronal level. To do so, you will develop several models of a spiking neuron. By the end of this assignment, you should a) be comfortable with developing models of spiking neurons at different levels of abstraction, from the biologically plausible H-H model to the phenomenological LIF model; b) understand how neurons use their firing rate to represent continuous-valued information; and c) understand the trade-offs involved in spike-based information representation. 
 
 * First, follow the instructions in the [readme file on homepage](../README.md) to set up the environment. 
 
@@ -9,4 +9,4 @@ The goal of this assignment is to develop an understanding of how to perform com
     * Implement your code in the space provided in the cells in the Jupyter notebook. 
     * Write your answers to the conceptual questions in the space provided in the Jupyter notebook. 
    
-* You will submit the completed jupyter notebook on Canvas. Please note that we will NOT accept any additional code files, PDFs, etc. We will only grade your jupyter notebook. So make sure that the submitted notebook is self-contained and has all your answers. 
+* You will submit the completed jupyter notebook on Canvas. Please note that we will NOT accept any additional code files, PDFs, etc. We will only grade your jupyter notebook. So make sure that the submitted notebook is self-contained and has all your answers. We will also NOT accept any late submissions, for any reason (including mysterious late-submission system glitches), unless there is a good reason for such a delay, that will be communicated to us well in advance (e.g., days before the due date.)
