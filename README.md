@@ -21,7 +21,7 @@ Note: You might need to add the environment path variable to your bashrc to run 
 1. Open the terminal and enter your bashrc with vim editor using: ```vim ~/.bashrc```
 2. Press Insert to enter the edit mode in vim and add the following line to the end of your bashrc file: ```export PATH="$PATH:/koko/system/anaconda/bin"```
 3. Press Esc to exit the edit mode. Type :wq to save and exit vim. 
-4. Source your bashrc using the following command: ```source ~\.bashrc```
+4. Source your bashrc using the following command: ```source ~/.bashrc```
 5. You should now be able to activate the environment: ```source activate python37```
 
 Once you have activated the environment, go to the directory where your assignment file resides and run jupyter lab using: ```jupyter lab```
