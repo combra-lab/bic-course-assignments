@@ -1,7 +1,7 @@
 # Assignment 2 #
 In Assignment 1, we studied how information is represented by a single spiking neuron. In this assignment, you will learn how to construct networks of spiking neurons for a given cognitive task, how to propagate information through a network, and understanding the intuition behind network design choices.  
 
-* The environment setup [readme file on homepage](../README.md) is same as that in the first assignment. 
+* The [environment setup](../README.md) is same as that of the first assignment. 
 
 * Download the jupyter notebook titled "Assignment2_Questions.ipynb" on the ilab machine (if using ilab), or your local machine. Also download the folders "data" and "save_models". 
 
