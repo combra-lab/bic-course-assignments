@@ -1,4 +1,4 @@
-# Assignment 2 #
+# Assignment 3 #
 In Assignment 2, we learnt how to construct networks of spiking neurons and propagate information through a network of fixed weights. In this assignment, you will learn how to train network weights for a given task using brain-inspired learning rules.
 
 * The environment setup [readme file on homepage](../README.md) is same as that in the first and second assignment. 
