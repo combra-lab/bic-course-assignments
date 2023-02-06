@@ -1,4 +1,4 @@
-# CS 425/525 Assignments （Spring 2023)
+# CS425/525 Assignments（Spring 2023)
 
 ## 0x00
 
@@ -12,7 +12,7 @@ To run the assignments, you will need to setup a programming environment. The ba
 
 There are **two** ways to set up an environment with the basic requirements:
 
-## iLab Machine(perfered)
+## iLab Machine (perfered)
 
 ### Register for a CS computing account
 
