@@ -12,29 +12,25 @@ To run the assignments, you will need to setup a programming environment. The ba
 
 There are **two** ways to set up an environment with the basic requirements:
 
-## On iLab (perfered)
+## iLab Machine(perfered)
+
+### Register for a CS computing account
 
 We strongly recommend you to use the ilab machines for the purpose of running the assignments. All students registered for CS 425/525 have access to the ilab machine through the CS computing account. If you do not have a CS computing account, please read the following webpage and follow the instructions to get a CS account: https://resources.cs.rutgers.edu/docs/new-users/getting-started/.
 
-With your CS account enabled, simply go to: https://weblogin.cs.rutgers.edu. Login through your CS account credentials. And click on any of the ilab machines to continue.
-More details here: https://resources.cs.rutgers.edu/docs/using-cs-weblogin-to-access-ilab-machines/
+### Connect to the iLab machine
 
-Once you are connected to the ilab machine, open a terminal and activate the python environment using `source activate python37`
+- With your CS account enabled, simply go to: https://weblogin.cs.rutgers.edu. Login through your CS account credentials. And click on any of the ilab machines to continue. You can check the avaliablity of iLab machines by https://report.cs.rutgers.edu/nagiosnotes/iLab-machines.html
+  More details here: https://resources.cs.rutgers.edu/docs/using-cs-weblogin-to-access-ilab-machines/
 
-Note: You might need to add the environment path variable to your bashrc to run the above command. This needs to be done just once. To do this, follow the following steps:
+- Once you are connected to the ilab machine, open a terminal and activate the python environment using `conda activate python37`
 
-1. Open the terminal and enter your bashrc with vim editor using: `vim ~/.bashrc`
-2. Press Insert to enter the edit mode in vim and add the following line to the end of your bashrc file: `export PATH="$PATH:/koko/system/anaconda/bin"`
-3. Press Esc to exit the edit mode. Type :wq to save and exit vim.
-4. Source your bashrc using the following command: `source ~/.bashrc`
-5. You should now be able to activate the environment: `source activate python37`
-
-Once you have activated the environment, go to the directory where your assignment file resides and run jupyter lab using: `jupyter lab`
-This will open Jupyter lab in a browser, and you will be able to access your assignment file, edit it, and run it.
+- Once you have activated the environment, go to the directory where your assignment file resides and run jupyter lab using: `jupyter lab`
+  This will open Jupyter lab in a browser, and you will be able to access your assignment file, edit it, and run it.
 
 Note: If you are using ilab machines, be aware of your storage quota for different directories. The storage options that the CS department provides you with are listed here : https://resources.cs.rutgers.edu/docs/file-storage/storage-technology-options/
 
-## On your local machine
+## Local machine
 
 We strongly recommend you to use ilab using the method described above, and we are here to help if you have any issues connecting to ilab. However, if you want to setup the programming environment on your own local machine, you will need to first create an anaconda environment (https://www.anaconda.com/products/individual). Then activate the conda environment and install Pytorch (https://pytorch.org/). All other required packages come preinstalled with anaconda distribution.
 
