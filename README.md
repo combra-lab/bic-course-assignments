@@ -24,8 +24,8 @@ We strongly recommend you to use the ilab machines for the purpose of running th
   More details here: https://resources.cs.rutgers.edu/docs/using-cs-weblogin-to-access-ilab-machines/
 
 - Once you are connected to the ilab machine, open a terminal and config the environment by the following command:
-  `echo "export PATH=\$PATH:/koko/system/anaconda/bin" >> ~/.bashrc && source ~/.bashrc`
-  you can check the result by `cat ~/.bashrc`, if `export PATH=\$PATH:/koko/system/anaconda/bin` locate at the last line of the file then everthing for environment configuration is good. You will not need to find and switch to the `activate` script from now on.
+  `echo "export PATH=\$PATH:/koko/system/anaconda/bin" >> ~/.bashrc && source ~/.bashrc`.
+- You can check the result by `cat ~/.bashrc`, if `export PATH=\$PATH:/koko/system/anaconda/bin` locates at the last line of the file, then everthing for configuration is good. You will not need to find and switch to the `activate` script from now on.
 
 - Switch to the environment prefix **(python37)** by `source activate python37`.
 
