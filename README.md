@@ -23,9 +23,13 @@ We strongly recommend you to use the ilab machines for the purpose of running th
 - With your CS account enabled, simply go to: https://weblogin.cs.rutgers.edu. Login through your CS account credentials. And click on any of the ilab machines to continue. You can check the avaliablity of iLab machines by https://report.cs.rutgers.edu/nagiosnotes/iLab-machines.html
   More details here: https://resources.cs.rutgers.edu/docs/using-cs-weblogin-to-access-ilab-machines/
 
-- Once you are connected to the ilab machine, open a terminal and activate the python environment using `conda activate python37`
+- Once you are connected to the ilab machine, open a terminal and config the environment by the following command:
+  `echo "export PATH=\$PATH:/koko/system/anaconda/bin" >> ~/.bashrc && source ~/.bashrc`
+  you can check the result by `cat ~/.bashrc`, if `export PATH=\$PATH:/koko/system/anaconda/bin` locate at the last line of the file then everthing for environment configuration is good. You will not need to find and switch to the `activate` script from now on.
 
-- Once you have activated the environment, go to the directory where your assignment file resides and run jupyter lab using: `jupyter lab`
+- Switch to the environment prefix **(python37)** by `source activate python37`.
+
+- Once you have activated the environment, go to **the directory where your assignment file resides** and run jupyter lab using: `jupyter lab`.
   This will open Jupyter lab in a browser, and you will be able to access your assignment file, edit it, and run it.
 
 Note: If you are using ilab machines, be aware of your storage quota for different directories. The storage options that the CS department provides you with are listed here : https://resources.cs.rutgers.edu/docs/file-storage/storage-technology-options/
