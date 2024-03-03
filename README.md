@@ -1,4 +1,4 @@
-# CS425/525 Assignments（Spring 2023)
+# CS425/525 Assignments（Spring 2024)
 
 ## 0x00
 
